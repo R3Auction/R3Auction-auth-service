@@ -1,9 +1,9 @@
 package com.r3a.auth.oauth2;
 
-import com.rta.core.dto.CustomOAuth2User;
-import com.rta.core.jwt.JWTUtil;
-import com.rta.core.jwt.RefreshToken;
-import com.rta.core.repository.RefreshTokenRepository;
+import com.r3a.auth.dto.CustomOAuth2User;
+import com.r3a.auth.jwt.JWTUtil;
+import com.r3a.auth.jwt.RefreshToken;
+import com.r3a.auth.repository.RefreshTokenRepository;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
